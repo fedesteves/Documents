@@ -9,8 +9,8 @@ Desde su publicación, ha atraído mucho interés debido a la gran variabilidad 
 El Juego de la vida tiene una variedad de patrones reconocidos que provienen de determinadas posiciones iniciales. Poco después de la publicación, se descubrieron el pentaminó R, el planeador o caminador (en inglés, glider, conjunto de células que se desplazan) y el explosionador (células que parecen formar la onda expansiva de una explosión), lo que atrajo un mayor interés hacia el juego. Contribuyó a su popularidad el hecho de que se publicó justo cuando se estaba lanzando al mercado una nueva generación de miniordenadores baratos, lo que significaba que se podía jugar durante horas en máquinas que, por otro lado, no se utilizarían por la noche.
 
 ## Requisitos
-pygame
-numpy
+pip install pygame<br/>
+pip install numpy<br/>
 
 ## Ejecucion
 clone repo
@@ -20,6 +20,6 @@ python gameOfLife.py
 el juego inicia con solo un automata, un pistola de planeadores de Gosper (Gosper Glider Gun)
 
 ## comandos
-Cualquier tecla pausa el juego
-Click izquierdo crea una celula viva
-Click derecha mata una celula 
+ - Cualquier tecla pausa el juego
+ - Click izquierdo crea una celula viva
+ - Click derecha mata una celula 
